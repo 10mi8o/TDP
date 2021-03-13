@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>About</title>
+
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/project.css" rel="stylesheet" type="text/css">
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+
+<body>
+<nav>
+  <div class="nav-wrapper"> <a href="index.html" class="brand-logo center"><h1><img src="img/site_logo.png" width="515" height="60" alt="portfolio_logo" /></h1>
+  </a>  <a href="#" data-activates="mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <ul class="right hide-on-med-and-down" data-collapsible="accordion">
+      <li  class=" waves-effect waves-light"><a style="color:#546e7a;" href="#modal1">About</a></li>
+      <li  class=" waves-effect waves-light"><a style="color:#546e7a;" href="index.html">Portfolio</a></li>
+      <li  class=" waves-effect waves-light"><a style="color:#546e7a;" href="javascript.html">Contact</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile">
+      <li><a href="sass.html">About</a></li>
+      <li><a href="index.html">Portfolio</a></li>
+      <li><a href="javascript.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+<div class="row">
+<div class="col s12"><img src="img/about_logo.png" width="1596" height="931" class="responsive-img" alt="Portfolio ロゴ"/></div>
+</div>
+</div>
+<div class="row">
+    <div class="col s12">
+      <div class="card-panel small ">
+        <table class="bordered">
+          <tbody class="project_info">
+          <tr>
+              <th >Name</th>
+              <td>富山 健作</td>
+            </tr>
+            <tr>
+              <th >Location</th>
+              <td>東京都三鷹市</td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td><a href="mailto:10mi8ma@gmail.com">10mi8ma@gmail.com</a></td>
+            </tr>
+            <tr>
+              <th style="/* [disabled]padding-bottom: 3px; */ /* [disabled]padding-left: 8px; */ /* [disabled]padding-right: 8px; */ /* [disabled]padding-top: 3px; */">Software</th>
+              <td style="padding-left:-10px;"><img src="img/skill.png" alt="software" height="42"/></td>
+            </tr>
+            <tr>
+              <th style="/* [disabled]padding-bottom: 3px; */ /* [disabled]padding-left: 8px; */ /* [disabled]padding-right: 8px; */ /* [disabled]padding-top: 3px; */">Skill</th>
+              <td style="padding-left:-10px;"><img src="img/skill_web.png" alt="skill" height="42"/></td>
+            </tr>
+            <tr>
+              <th>Resume</th>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    </div>
+
+<footer>
+  <p style="text-align:center; margin:0;"><small> <span style="color:#546e7a;">© 2014 10mi8ma</span> </small></p>
+</footer>
+
+<!--Import jQuery before materialize.js--> 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+<script type="text/javascript" src="js/materialize.min.js"></script> 
+<script>
+$( document ).ready(function(){$(".button-collapse").sideNav(
+{menuWidth: 300, // Default is 240
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    }
+  
+);})       </script>
+</body>
+</html>

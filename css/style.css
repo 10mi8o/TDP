@@ -1,0 +1,29 @@
+/*@import url(http://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
+@import url(http://fonts.googleapis.com/earlyaccess/sawarabigothic.css);*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body{
+font-family: "Noto Sans Japanese";
+margin:0;
+}
+
+small p{
+	font-size:14px;
+	margin: 0;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+a:visited{
+	/* [disabled]color:rgba(0,0,0,1.00); */
+}
+
+.card-text{
+font-size:13px;
+}
+
+footer{
+background:#F5F5F5;
+}
